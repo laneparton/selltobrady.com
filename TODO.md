@@ -1,5 +1,5 @@
 - Fix pictures
-- Fix form
+- ~~Fix form~~
 - New house @ bottom
 - ~~Add logo~~
 - Google Search Index

@@ -63,6 +63,18 @@
         .testimonial-card {
             border-left: 4px solid #3182ce;
         }
+        .logo {
+            font-weight: bold;
+        }
+
+        .logo-text-dark {
+            color: #333333;
+        }
+
+        .logo-text-brand {
+            color: #2c5282;
+            border-bottom: 2px solid #2c5282;
+        }
     </style>
 </head>
 
@@ -72,8 +84,8 @@
         <div class="container">
             <!-- Logo container-->
             <a class="logo" href="index.html">
-                <span class="logo-light-mode h4 mb-0 fw-bold text-custom-blue">Sell to Brady</span>
-                <span class="logo-dark-mode h4 mb-0 fw-bold text-white">Sell to Brady</span>
+                <span class="logo-text-dark">Sell to </span>
+                <span class="logo-text-brand">Brady</span>
             </a>
             <!-- End Logo container-->
     
@@ -417,7 +429,7 @@
             <div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <div class="card shadow rounded border-0">
                     <div class="card-body py-5">
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form name="contact" method="POST" netlify>
                             <input type="hidden" name="form-name" value="contact" />
                             <div class="row">
                                 <div class="col-md-6">

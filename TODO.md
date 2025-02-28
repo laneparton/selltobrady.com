@@ -1,6 +1,0 @@
-- Fix pictures
-- ~~Fix form~~
-- New house @ bottom
-- ~~Add logo~~
-- Google Search Index
-- Google Analytics
